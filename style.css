@@ -222,9 +222,18 @@ body {
     align-items: center;
     text-align: justify;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .newss-right>h2 {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.newss-left2>h2 {
     color: rgba(14, 14, 14, 0.80);
     font-family: "Fira Sans";
     font-size: 32px;
