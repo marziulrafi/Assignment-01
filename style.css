@@ -1,7 +1,203 @@
+* {
+    font-family: "Fira Sans";
+}
+
 .banner {
-    width: 1080px;
-    height: 600px;
+    width: 1200px;
+    height: 430px;
+    margin: 50px auto;
     padding: 80px 100px;
     background-color: #C6E4D6;
     border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner>img {
+    width: 460px;
+    height: 400px;
+}
+
+.ban-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ban-content>h3 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ban-content>h6 {
+    color: rgba(14, 14, 14, 0.50);
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn {
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    background: #006A50;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.vision {
+    margin: 0 auto;
+    width: 82%;
+
+}
+
+.vision>h3 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.vision>p {
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;
+    /* 150% */
+}
+
+.box {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box1 {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    height: 250px;
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+}
+
+.box2 {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    height: 250px;
+    border-radius: 16px;
+    border: 0px solid #09A15C;
+    background: #C6E4D6;
+}
+
+.box3 {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    height: 250px;
+    border-radius: 16px;
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+}
+
+.box1>button {
+    display: flex;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    background: #5490F5;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.box2>button {
+    display: flex;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    background: #09A15C;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.box3>button {
+    display: flex;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    background: #FFC239;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.news>h3 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.news>p {
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px;
+    /* 150% */
 }
