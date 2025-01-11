@@ -263,7 +263,6 @@ main {
 
 .news-box {
     display: flex;
-    gap: 35px;
     border-radius: 18px;
     background: #FFF;
     padding: 48px;
@@ -334,7 +333,10 @@ main {
 .read:hover {
     background-color: sandybrown;
 }
-
+.newss-right > .read:hover{
+    background-color: paleturquoise;
+    color: black;
+}
 .donate {
     display: flex;
     flex-direction: column;
@@ -511,4 +513,5 @@ main {
 
 .subs>button:hover {
     background-color: cornflowerblue;
+    color: black;
 }
