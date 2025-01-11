@@ -405,7 +405,7 @@ main {
 }
 
 .taka100:hover {
-    background: #C6E4D6;
+    background-color: lightseagreen;
 }
 
 .taka200:hover {
@@ -413,11 +413,11 @@ main {
 }
 
 .taka500:hover {
-    background: #C6E4D6;
+    background-color: steelblue;
 }
 
 .taka1000:hover {
-    background: #C6E4D6;
+    background: powderblue;
 }
 
 .donate>input {
