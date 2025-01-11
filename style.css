@@ -70,7 +70,7 @@ main {
 }
 
 .btn:hover {
-    background-color: darkred;
+    background-color: crimson;
 }
 
 .vision {
@@ -182,6 +182,7 @@ main {
 
 .box2>button:hover {
     background-color: plum;
+    color: black;
 }
 
 .box3>button {
@@ -332,6 +333,7 @@ main {
 
 .read:hover {
     background-color: sandybrown;
+    color: black;
 }
 
 .newss-right>.read:hover {
