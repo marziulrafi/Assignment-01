@@ -333,10 +333,12 @@ main {
 .read:hover {
     background-color: sandybrown;
 }
-.newss-right > .read:hover{
+
+.newss-right>.read:hover {
     background-color: paleturquoise;
     color: black;
 }
+
 .donate {
     display: flex;
     flex-direction: column;
@@ -514,4 +516,35 @@ main {
 .subs>button:hover {
     background-color: cornflowerblue;
     color: black;
+}
+footer {
+    margin-top: 80px;
+}
+.ft-content {
+    background: #FFF;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.ft-content >h3 {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+hr {
+    width: 1122px;
+    background: rgba(14, 14, 14, 0.10);
 }
