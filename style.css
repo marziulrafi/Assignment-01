@@ -6,8 +6,12 @@ body {
     background-color: #F1F1F3;
 }
 
+main {
+    margin: 0 130px;
+}
+
 .banner {
-    width: 1370px;
+    width: 1150px;
     height: 430px;
     margin: 50px auto;
     padding: 80px 100px;
@@ -45,6 +49,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: -20px;
 }
 
 .btn {
@@ -61,6 +66,10 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: darkred;
 }
 
 .vision {
@@ -149,6 +158,9 @@ body {
     border: none;
     cursor: pointer;
 }
+.box1>button:hover{
+    background-color: darkorange;
+}
 
 .box2>button {
     display: flex;
@@ -159,13 +171,15 @@ body {
     border-radius: 8px;
     background: #09A15C;
     color: #FFF;
-    font-family: "Fira Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     border: none;
     cursor: pointer;
+}
+.box2>button:hover{
+    background-color: plum;
 }
 
 .box3>button {
@@ -177,7 +191,6 @@ body {
     border-radius: 8px;
     background: #FFC239;
     color: #FFF;
-    font-family: "Fira Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -185,10 +198,12 @@ body {
     border: none;
     cursor: pointer;
 }
+.box3>button:hover{
+    background-color: navy;
+}
 
 .news>h3 {
     color: #0E0E0E;
-    font-family: "Fira Sans";
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -202,7 +217,6 @@ body {
 
 .news>p {
     color: rgba(14, 14, 14, 0.70);
-    font-family: "Fira Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -216,7 +230,6 @@ body {
     gap: 30px;
     border-radius: 18px;
     background: #FFF;
-    display: flex;
     padding: 48px;
     width: 94%;
     align-items: center;
@@ -227,15 +240,14 @@ body {
 
 .newss-right>h2 {
     color: rgba(14, 14, 14, 0.80);
-    font-family: "Fira Sans";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
+
 .newss-left2>h2 {
     color: rgba(14, 14, 14, 0.80);
-    font-family: "Fira Sans";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -245,19 +257,19 @@ body {
 .newss-left>img {
     border-radius: 16px;
 }
+
 .newss-right2>img {
     border-radius: 16px;
 }
 
 .newss-right>p {
     color: rgba(14, 14, 14, 0.70);
-    font-family: "Fira Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
 }
+
 .newss-left2>p {
     color: rgba(14, 14, 14, 0.70);
     font-family: "Fira Sans";
@@ -265,7 +277,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
 }
 
 .read {
@@ -277,9 +288,173 @@ body {
     align-items: center;
     gap: 48px;
     color: #FFF;
-    font-family: "Fira Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
+}
+.read:hover{
+    background-color: sandybrown;
+}
+
+.donate {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.taka-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.donate>h2 {
+    color: #0E0E0E;
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.donate>p {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.taka100,
+.taka200,
+.taka500,
+.taka1000 {
+    width: 220px;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    display: flex;
+    padding: 28px;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.taka100:hover {
+    background: #C6E4D6;
+}
+
+.taka200:hover {
+    background: #C6E4D6;
+}
+
+.taka500:hover {
+    background: #C6E4D6;
+}
+
+.taka1000:hover {
+    background: #C6E4D6;
+}
+
+.donate > input {
+    display: block;
+    width: 1000px;
+    height: 64px;
+    text-align: center;
+    margin: 0 160px 32px 80px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.donate > button {
+    margin-bottom: 60px;
+}
+.donate > button:hover{
+    background-color: khaki;
+    color: brown;
+}
+
+.subscribe {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    margin-top: 80px;
+    margin: 0 auto;
+    width: 82%;
+}
+
+.subs-content {
+    padding: 80px 100px;
+}
+
+.subs-content>h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.subs-content>p {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.subs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.subs>input {
+    width: 600px;
+    height: 30px;
+    padding: 18px 40px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 0px;
+}
+
+.subs>button {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    background-color: rgb(0, 106, 80);
+    border-radius: 0 8px 8px 0;
+    margin-right: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.spam {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.subs > button:hover{
+    background-color: cornflowerblue;
 }
